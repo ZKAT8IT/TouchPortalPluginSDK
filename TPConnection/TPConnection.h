@@ -70,7 +70,7 @@ class TPConnection
         wxString GetSDKVersion() { return TPInfo.sdkVersion; }
         wxString GetTPVersionString() { return TPInfo.tpVersionString; }
         long GetTPVersionCode() { long n; TPInfo.tpVersionCode.ToLong(&n); return n; }
-        float GetTPPluginVersion() { double n; TPInfo.pluginVersion.ToDouble(&n); return n; }
+        double GetTPPluginVersion() { double n; TPInfo.pluginVersion.ToDouble(&n); return n; }
         wxString GetTPPluginStatus() { return TPInfo.status; }
 
         //Get Amount Of Events Currently Received
