@@ -16,7 +16,7 @@ int TP_SDK::OnRun()
 
     //Display If Connection Paired To Touch Portal
     //cout << "Status - " << MyTPSocket->GetTPPluginStatus() << endl;
-
+    
     // Main Loop As Long As Socket Is Connected To Touch Portal
     while( MyTPSocket->IsConnected() && !MyTPSocket->Error() )
     {
